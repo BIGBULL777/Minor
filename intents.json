@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "How are u",
+        "How are U"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi!, how are you feeling today"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting.Enter quit to exit",
+        "Have a nice day,Enter quit to exit",
+        "Bye! Come back again soon.Enter quit to exit"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I feel sad",
+        "I am sad",
+        "I'm sad",
+        "I am not feeling good",
+        "I feel alone",
+        "i feel alone"
+      ],
+      "responses": [
+        "Oh! I am Sorry, what can I do to cheer you up?",
+        "Perhaps You would like to listen to music"
+      ]
+    },
+    {
+      "tag": "songs-happy",
+      "patterns": [
+        "What's on your mind?",
+        "What's on ur mind?",
+        "Whts on ur mind?",
+        "",
+        "",
+        "Can You play a song for me",
+        "Can u play a song for me",
+        "Can u play a song for me?"
+      ],
+      "responses": [
+        "...",
+        "Please listen to: <a href='https://www.youtube.com/watch?v=4NRXx6U8ABQ'>Blinding lights</a>"
+      ]
+    },
+    {
+      "tag": "songs-sad",
+      "patterns": [
+        "What's on your mind?",
+        "What's on ur mind?",
+        "Whts on ur mind?",
+        "",
+        "",
+        "Can You play a song for me",
+        "Can u play a song for me",
+        "Can u play a song for me?"
+      ],
+      "responses": [
+        "...",
+        "Please listen to: <a href='https://www.youtube.com/watch?v=4NRXx6U8ABQ'>Blinding lights</a>"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "!!!",
+        "I am Angry",
+        "Aghhh",
+        "#$WTYGJ",
+        "I am so bad",
+        "I'm so bad"
+      ],
+      "responses": [
+        "Perhaps You can ask me for a joke?",
+        "You lack Motivation?"
+      ]
+    },
+    {
+      "tag": "frustated",
+      "patterns": [
+        "!!!",
+        "I am Angry",
+        "Aghhh",
+        "#$WTYGJ",
+        "I am so bad",
+        "I'm so bad"
+      ],
+      "responses": [
+        "Perhaps You can ask me for a joke?",
+        "You lack Motivation?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.`",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Listen to this  <a href='https://www.youtube.com/watch?v=4NRXx6U8ABQ'></a>"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "!!!",
+        "I am Angry",
+        "Aghhh"
+      ],
+      "responses": [
+        "Perhaps You can ask me for a joke?",
+        "You lack Motivation? listen to this  <a href='https://www.youtube.com/watch?v=4NRXx6U8ABQ'>Blinding lights</a>"
+      ]
+    }
+  ]
+}
